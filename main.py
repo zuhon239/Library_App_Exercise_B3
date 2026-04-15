@@ -12,9 +12,9 @@ import os
 sys.path.insert(0, os.path.dirname(__file__))
 
 from Database.DBConnection import initialize_database
-from Presentation.BookView   import BookView
-from Presentation.MemberView import MemberView
-from Presentation.BorrowView import BorrowView
+from View.BookView   import BookView
+from View.MemberView import MemberView
+from View.BorrowView import BorrowView
 
 
 def main():
